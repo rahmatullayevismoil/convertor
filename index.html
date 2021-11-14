@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>Convertor</title>
+  </head>
+  <body class="bg-success">
+    <div class="container">
+      <div class="wrapper">
+        <h1 class="heading text-center text-light font-weight-bold">
+          Who is the first?
+        </h1>
+        <div class="mini-wrapper justify-content-center d-flex">
+          <p
+            class="text text-light font-weight-bold mr-3"
+            style="font-size: x-large"
+          >
+            Distance
+          </p>
+          <form id="form">
+            <input
+              style="width: 350px"
+              class="rounded border-0 p-1 pl-3 mr-2"
+              type="number"
+              id="inputDistance"
+              placeholder="Please enter in kilometrs!"
+            />
+            <button
+              class="rounded border-0 p-1 pr-2 pl-2"
+              id="btn"
+              type="submit"
+            >
+              Convert
+            </button>
+            <button
+              class="rounded border-0 p-1 pr-3 pl-3"
+              id="btn-reset"
+              type="reset"
+            >
+              Reset
+            </button>
+          </form>
+        </div>
+
+        <div class="box-wrapper d-flex justify-content-center">
+          <div class="wrapper__box first m-5">
+            <img
+              style="border-radius: 50%"
+              src="https://www.pngkit.com/png/detail/822-8227854_illustration-of-a-man-walking-holding-phone-cartoon.png"
+              width="200"
+              height="200"
+              alt="plane"
+            />
+            <h2 class="wrapper__heading-second text-light text-center">Walk</h2>
+            <h3
+              class="wrapper__heading-third text-light text-center"
+              id="walk"
+            ></h3>
+          </div>
+          <div class="wrapper__box second m-5">
+            <img
+              style="border-radius: 50%"
+              src="https://media.istockphoto.com/vectors/cartoon-sportsman-bicyclist-in-helmet-riding-bicycle-in-sportswear-vector-id1138840747"
+              width="200"
+              alt="plane"
+            />
+            <h2 class="wrapper__heading-second text-light text-center">Bike</h2>
+            <h3
+              class="wrapper__heading-third text-light text-center"
+              id="bike"
+            ></h3>
+          </div>
+          <div class="wrapper__box third m-5">
+            <img
+              style="border-radius: 50%"
+              src="https://img.freepik.com/free-vector/sport-car-illustration_173474-95.jpg?size=626&ext=jpg"
+              width="230"
+              alt="plane"
+            />
+            <h2 class="wrapper__heading-second text-light text-center">Car</h2>
+            <h3
+              class="wrapper__heading-third text-light text-center"
+              id="car"
+            ></h3>
+          </div>
+          <div class="wrapper__box fourth m-5">
+            <img
+              style="border-radius: 50%"
+              src="https://i.pinimg.com/originals/34/0b/c0/340bc000b8d35560c41a85cdeeae4c98.jpg"
+              width="240"
+              alt="plane"
+            />
+            <h2 class="wrapper__heading-second text-light text-center">
+              Plane
+            </h2>
+            <h3
+              class="wrapper__heading-third text-light text-center"
+              id="plane"
+            ></h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,12 @@
+button{
+    background-color: #007AFC;
+}
+
+button:hover{
+    color: white;
+    background-color: rgba(87, 87, 252, 0.61);
+}
+
+button:active{
+    background-color: rgba(131, 241, 131, 0.801);
+}
